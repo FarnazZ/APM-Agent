@@ -4,7 +4,7 @@ const apm = require('elastic-apm-node').start({
   //   // Allowed characters: a-z, A-Z, 0-9, -, _, and space
   serviceName: 'apm-server-sample-apm-http',
   // Use if APM Server requires a token
-  secretToken: '',
+  secretToken: 'apm-server-sample-apm-token',
   // Set custom APM Server URL (default: http://localhost:8200)
   serverUrl: 'http://apm-server-sample-apm-http.eck.svc:8200',
   verifyServerCert: 'false',
