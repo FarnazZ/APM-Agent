@@ -1,6 +1,6 @@
 FROM node:12
 
-RUN npm install elastic-apm-node --save
+RUN npm init -y && npm install elastic-apm-node --save
 
 EXPOSE 8080
 
